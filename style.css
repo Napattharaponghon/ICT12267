@@ -1,0 +1,156 @@
+/* ================= GLOBAL ================= */
+
+body {
+    background: #0b132b;
+    color: #ffffff;
+    font-family: 'Georgia', serif;
+}
+
+
+/* ================= NAVBAR ================= */
+
+.nav-magic {
+    background: #1c2541;
+    border-bottom: 2px solid #d4af37;
+}
+
+.logo {
+    font-weight: bold;
+    color: #d4af37 !important;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    margin-left: 20px;
+}
+
+.nav-link:hover {
+    color: #d4af37 !important;
+}
+
+
+/* ================= BANNER ================= */
+
+.banner {
+    height: 500px;
+    background: url("https://images.unsplash.com/photo-1518709268805-4e9042af9f23") center / cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-text {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.banner-text h1 {
+    font-size: 48px;
+    color: #d4af37;
+}
+
+
+/* ================= MOVIE CARD ================= */
+
+.movie-card {
+    background: #1c2541;
+    color: #ffffff;
+
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+
+    transition: 0.4s;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.movie-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.movie-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.8);
+}
+
+
+/* ================= BUTTON ================= */
+
+.btn-magic {
+    background: #d4af37;
+    color: #000000;
+    font-weight: bold;
+}
+
+.btn-magic:hover {
+    background: #ffd700;
+    color: #000000;
+}
+
+
+/* ================= ABOUT ================= */
+
+.about-section {
+    background: #1c2541;
+    padding: 60px 0;
+    text-align: center;
+}
+
+
+/* ================= CONTACT ================= */
+
+.contact-box {
+    max-width: 500px;
+    margin: auto;
+}
+
+
+/* ================= FOOTER ================= */
+
+.footer {
+    background: #020617;
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.social i {
+    font-size: 28px;
+    margin: 10px;
+    color: #d4af37;
+}
+
+
+/* ================= MODAL ================= */
+
+.modal-magic {
+    background: #1c2541;
+    color: #ffffff;
+    border: 2px solid #d4af37;
+}
+
+.modal-title {
+    color: #d4af37;
+}
+
+
+/* ================= PARTICLES BACKGROUND ================= */
+
+#magic-particles {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: -1;
+
+    background: radial-gradient(circle at top, #1c2541, #020617);
+}
